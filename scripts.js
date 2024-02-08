@@ -97,7 +97,7 @@ const template = document.querySelector('template');
 const correta = new Set()
 const totalDePerguntas = perguntas.length
 const mostrarTotal = document.querySelector('#acertos span')
-mostrarTotal.textContent = correta.size + 'de' + totalDePerguntas
+mostrarTotal.textContent = correta.size + ' de ' + totalDePerguntas
 
 for(const item of perguntas) {
   const quizItem = template.content.cloneNode(true)
