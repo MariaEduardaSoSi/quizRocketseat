@@ -1,1 +1,5 @@
-# quizRocketseat
+Tecnologia utilizadas:
+
+-HTML
+-CSS
+-JavaScript
